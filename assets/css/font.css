@@ -1,0 +1,72 @@
+
+.font1
+ {
+        font-family: 'Tangerine', serif,'neuton';
+        font-size: 20px;
+        color:#ffffff;
+}
+
+.font12
+ {
+        font-family: 'Tangerine', serif,'neuton';
+        font-size: 30px;
+        color:#ffffff;
+}
+
+.font123
+ {
+        font-family: 'Tangerine', serif,'neuton';
+        font-size: 30px;
+        color:#000000;
+}
+
+.font123_orange
+ {
+        font-family: 'Tangerine', serif,'neuton';
+        font-size: 30px;
+        color:#FF8000;
+}
+
+.font123_red
+ {
+        font-family: 'Tangerine', serif,'neuton';
+        font-size: 40px;
+        color:#DF0101;
+}
+
+
+.font123_google_blue
+ {
+        font-family: 'Tangerine', serif,'neuton';
+        font-size: 30px;
+        color:#0080FF;
+}
+
+.font123_google_blue_help_number
+ {
+        font-family: 'Tangerine', serif,'neuton';
+        font-size: 60px;
+        color:#0080FF;
+}
+
+
+.font_normal
+{
+	
+	font-family:"Times New Roman",Times,serif;
+}
+
+.font_normal_georgia_times
+{
+	
+	font-family:georgia,"Times New Roman",Times,serif;
+}
+
+
+.font_error
+{
+	
+	font-family:"Times New Roman",Times,serif;
+	color:red;
+	font-size:15px;
+}

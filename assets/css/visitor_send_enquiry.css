@@ -1,0 +1,48 @@
+.send_enquiry_lightbox
+{
+background-color: #EAEAEA;
+    box-shadow: 1px 1px 2px #888;
+    height: auto;
+	width:100%;
+	border-radius:5px;
+}
+
+
+.send_enquiry_lightbox #searchHeading{
+	background:#1097e6;
+	border-color: #0d78b6 #0d78b6 #0b689e;
+	border-radius:5px 5px 0px 0px ;
+	border-bottom:1px solid #888;
+	height: 25px;
+    padding-top: 6px;
+}
+
+.text-input {
+  float: left;
+  padding: 0 7px;
+  color: #525864;
+  background: white;
+  border: 1px solid;
+  border-color: #b3c0e2 #bcc5e2 #c0ccea;
+  border-radius: 4px;
+  background-image: -webkit-linear-gradient(top, #f6f8fa, white);
+  background-image: -moz-linear-gradient(top, #f6f8fa, white);
+  background-image: -o-linear-gradient(top, #f6f8fa, white);
+  background-image: linear-gradient(to bottom, #f6f8fa, white);
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1), 0 1px rgba(255, 255, 255, 0.5);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1), 0 1px rgba(255, 255, 255, 0.5);
+}
+
+.text-input:focus {
+  border-color: #46aefe;
+  outline: none;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1), 0 0 5px #46aefe;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1), 0 0 5px #46aefe;
+}
+
+
+.inputWH
+{
+width:250px;
+height:30px;
+}

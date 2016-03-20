@@ -1,0 +1,71 @@
+/* ######### Matt Black Strip Main Menu Bar CSS ######### */
+
+.mattblackmenu ul{
+margin: 0;
+padding: 0;
+height: 40px;
+font: 11px Verdana, Arial, Helvetica, sans-serif;
+text-shadow: 1px 1px 1px rgba(0,0,0, 0.2);
+padding-bottom: 0px;
+list-style-type: none;
+overflow: hidden;
+width: 100%;
+}
+
+.mattblackmenu li{
+display: inline;
+margin: 0;
+}
+
+.mattblackmenu li a{
+float: left;
+height: auto;
+display: block;
+text-decoration: none;
+margin-top: 0px;
+padding-top:20px;
+padding-bottom:6px;
+padding-left:13px;
+padding-right:13px;
+color: #ffffff;
+border-right: 1px solid #444444;
+border-left: 1px solid #000000;
+}
+
+.mattblackmenu li a:visited{
+color: #ffffff;
+}
+
+.mattblackmenu a.selected:visited{
+color:#ffffff;
+}
+
+.mattblackmenu li a:hover{
+background-color:#444444;
+color:#cccccc;
+}
+
+.mattblackmenu a.selected{
+background-color:#444444;
+color:#cccccc;
+}
+
+.mattblackmenu li#active a {
+padding-top:32px;
+padding-right:50px;
+padding-left:30px;
+margin-left:-55px;
+margin-top:-22px;
+background-image:url(home.png);
+background-repeat:no-repeat;
+}
+
+.mattblackmenu li#active a:hover{
+background-image:url(home_h.png);
+background-repeat:no-repeat;
+background-color: #333333;
+}
+
+.mattblackmenu li#bractive a {
+border-right: none;
+}

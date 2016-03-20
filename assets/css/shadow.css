@@ -1,0 +1,74 @@
+.searchPanel11
+{
+	
+	
+border: 1px solid #696;
+padding: 60px 0;
+text-align: center; width: 200px;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+-webkit-box-shadow: #666 0px 2px 3px;
+-moz-box-shadow: #666 0px 2px 3px;
+box-shadow: #666 0px 2px 3px;
+background: #EEFF99;
+background: -webkit-gradient(linear, 0 0, 0 bottom, from(#EEFF99), to(#66EE33));
+background: -webkit-linear-gradient(#EEFF99, #66EE33);
+background: -moz-linear-gradient(#EEFF99, #66EE33);
+background: -ms-linear-gradient(#EEFF99, #66EE33);
+background: -o-linear-gradient(#EEFF99, #66EE33);
+background: linear-gradient(#EEFF99, #66EE33);
+-pie-background: linear-gradient(#EEFF99, #66EE33);
+behavior: url(/pie/PIE.htc);
+
+}
+
+
+#myAwesomeElement{
+	position:absolute; 
+	top:20%;
+	left:20%;
+	margin:0 auto;
+	width:800px;
+	height:220px;
+	z-index:1001;
+	padding:10px;
+	border-radius:5px;
+	background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 3px;
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.1); 
+    /*-pie-background: linear-gradient(to bottom, #ffffff, #EEE); ie 6-9 via PIE*/
+    
+    
+    -pie-background: #ffffff;
+    filter:alpha(opacity=70);
+    /*
+    linear-gradient(top, rgba(30,87,153,1) 0%, rgba(30,87,153,0.04) 96%, rgba(125,185,232,0) 100%);
+    */
+    behavior: url(/projects/egypt_real_estate/assets/css/pie/PIE.htc);
+    
+    <!--[if IE 8]>
+
+    margin-top:200px;
+	
+	
+
+<![endif]-->
+}
+
+
+.searchPanel{
+	position:absolute; 
+	top:20%;
+	left:20%;
+	margin:0 auto;
+	width:800px;
+	height:220px;
+	z-index:1001;
+	padding:10px;
+	border-radius:5px;
+	background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 3px;
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.1);
+    behavior: url(/projects/egypt_real_estate/assets/css/pie/PIE.htc);
+}

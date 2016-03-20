@@ -1,0 +1,36 @@
+#imageGallery {
+  margin:25px;
+  width:500px;
+  border: 1px solid #f0f0f0;
+}
+.imageZoom ul {
+  height:131px;
+  padding:10px;
+  margin:0;
+}
+.imageZoom ul li {
+  list-style: none;
+  margin:0;
+  padding:0;
+  float:left;
+  width:0;
+  height:131px;
+}
+.imagePreview {
+  height:60px;
+  margin:0;
+  padding:0;
+  background: #f0f0f0;
+}
+.imagePreview ul {
+  margin:0;
+  padding:0;
+  list-style: none;
+}
+.imagePreview ul li{
+  float: left;
+  text-align: center;
+  margin:13px 15px;
+  padding:0;
+  background: #f0f0f0;
+}

@@ -1,0 +1,133 @@
+.leftContainer_80
+{
+	width:130%;
+	float:left;
+	align:center;
+}
+
+
+
+
+.owner_Dashboard
+{
+background-color: #EAEAEA;
+    box-shadow: 1px 1px 2px #888;
+    height: auto;
+	width:100%;
+	border-radius:10px;
+}
+
+
+.owner_Dashboard #searchHeading{
+	background:#FF8214;
+	border-color: #0d78b6 #0d78b6 #0b689e;
+	border-radius:5px 5px 0px 0px ;
+	border-bottom:1px solid #888;
+	height: 25px;
+    padding-top: 6px;
+}
+
+
+.font1
+ {
+        font-family: 'Tangerine', serif;
+        font-size: 25px;
+}
+
+.font11
+ {
+        font-family: 'Tangerine', serif;
+        font-size: 25px;
+        color:#FF0000;
+}
+
+.font2
+ {
+        font-family: 'Tangerine', serif;
+        font-size: 25px;
+}
+
+.font22
+ {
+        font-family: 'Tangerine', serif;
+        font-size: 25px;
+        color:#FF0000;
+}
+
+.font3
+ {
+        font-family: 'Tangerine', serif;
+        font-size: 25px;
+}
+
+.font33
+ {
+        font-family: 'Tangerine', serif;
+        font-size: 25px;
+        color:#FF0000;
+}
+
+
+<!-- copied button css start -->
+
+
+.DisplayBtn {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  height: 20px;
+  line-height: 25px;
+  padding: 0 20px;
+  font-size: 13px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 0 -1px rgba(0, 0, 0, 0.4);
+  background-clip: padding-box;
+  border: 1px solid;
+  border-radius: 3px;
+  cursor: pointer;
+  -webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), inset 0 0 0 1px rgba(255, 255, 255, 0.08), 0 1px 2px rgba(0, 0, 0, 0.25);
+  box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), inset 0 0 0 1px rgba(255, 255, 255, 0.08), 0 1px 2px rgba(0, 0, 0, 0.25);
+}
+.DisplayBtn:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  pointer-events: none;
+  background-image: -webkit-radial-gradient(center top, farthest-corner, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0));
+  background-image: -moz-radial-gradient(center top, farthest-corner, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0));
+  background-image: -o-radial-gradient(center top, farthest-corner, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0));
+  background-image: radial-gradient(center top, farthest-corner, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0));
+}
+.DisplayBtn:hover:before {
+  background-image: -webkit-radial-gradient(farthest-corner, rgba(255, 255, 255, 0.18), rgba(255, 255, 255, 0.03));
+  background-image: -moz-radial-gradient(farthest-corner, rgba(255, 255, 255, 0.18), rgba(255, 255, 255, 0.03));
+  background-image: -o-radial-gradient(farthest-corner, rgba(255, 255, 255, 0.18), rgba(255, 255, 255, 0.03));
+  background-image: radial-gradient(farthest-corner, rgba(255, 255, 255, 0.18), rgba(255, 255, 255, 0.03));
+}
+.DisplayBtn:active {
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+.DisplayBtn:active:before {
+  content: none;
+}
+
+.DisplayBtn-red {
+  background: #FA5858;
+  border-color: #FA5858;
+  background-image: -webkit-linear-gradient(top, #25a5f0, #1097e6 66%, #0f8ad3);
+  background-image: -moz-linear-gradient(top, #25a5f0, #1097e6 66%, #0f8ad3);
+  background-image: -o-linear-gradient(top, #25a5f0, #1097e6 66%, #0f8ad3);
+  background-image: linear-gradient(to bottom, #25a5f0, #1097e6 66%, #0f8ad3);
+}
+.DisplayBtn-red:active {
+  background: #FA5858;
+  border-color: #0b689e #0d78b6 #0d78b6;
+}
+
+<!-- copied button css end -->
